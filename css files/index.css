@@ -1,0 +1,196 @@
+/* batchasi uchun */
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 100;
+}
+/* ancer tegi */
+a{
+    text-transform: uppercase;
+    color: black;   
+}
+/* buyruqlarni bekor qilish */
+.clr{
+    clear: both;
+}
+/* tekislashlik uchun */
+.header{
+    width: 70%;
+    margin: auto;
+}
+/* header qism  */
+.uzb {
+    float: left;
+}
+.uzb img{
+    background-size: cover;    
+}
+.ul{
+    float:right;
+    overflow: hidden;
+    display: flex; 
+    align-items: center;
+}
+.ul li a{
+    padding: 32px 10px;
+    display: block;
+   
+}
+.ul li a:hover{
+    background-color: #333;
+    color: #fff;
+    transition: 0.8s ease-in-out;
+    transform: scale(1.15, 1.15); 
+}
+.ul li a:active {
+    opacity: 70%;
+    
+}
+
+/* Main part */
+.main{
+    background-image: url(../img/RegistanSquare_Samarkand.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 175px;
+}
+.main span{
+    color: red;
+}
+.main button{
+   width:10%;
+   height: 40px;
+   border-radius: 30px;
+   background: transparent;
+   color:white;
+   border-color: #333
+   ;
+   
+}
+.main button:hover{
+   color: black;
+    border-color: white;
+    cursor: pointer;
+    transform: scale(1.1, 1.1);
+    transition: 0.4s ease-in-out;
+    box-shadow: 2px 2px 20px rgb(170, 56, 56);
+}
+
+.new-list{
+    display: flex;
+}
+.new-list h2{
+    font-size: 20px;
+    margin: 40px 0px 20px 0px;
+}
+.new-list button{
+    margin: 10px 0px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    width: 100%;
+    height: 35px;
+    color: rgb(245, 32, 32);
+    border-color: rgb(245, 32, 32);
+    background: transparent;
+}
+.new-list button:hover{
+    cursor: pointer;
+    border-color: blue;
+    color: rgb(6, 6, 100);
+    box-shadow: 1px 1px 10px rebeccapurple;
+    transform: scale(1.02,1.02);
+    font-weight: 600;
+}
+.bino{
+    width: 33.3%;  
+    border: 1.5px solid rgb(145, 180, 173); 
+    padding: 13px;
+    text-align: center;
+    margin-right: 6px;
+    border-radius: 5px;
+    }
+.bino p{
+    text-align: justify;
+}
+.bino img{
+    border-radius: 7px;
+    width: 100%;
+    }
+    
+ol li{
+    flex-direction: column;
+    padding: 10px 0px;
+}
+
+.viloyat1 a{
+    color: rgb(10, 9, 53);
+    margin-left: 5px;
+    
+}
+.viloy{
+    margin-top: 70px;
+}
+.viloyat1{
+    width: 33.3%;
+    
+}
+.vil{
+    display: flex;
+    padding-top: 30px;
+    border-top: 1px solid rgb(129, 122, 122);
+    
+}
+.vil  a:hover{
+    color: blue;
+    transform: scale(1.5,1.5);
+}
+.g{
+    border-left: 1px solid rgb(129, 122, 122);
+    border-right: 1px solid rgb(129, 122, 122);
+}
+
+.viloyat1 ol li{
+    margin-left: 10px;
+    justify-items: center;
+}
+
+iframe{
+    background-color: #333;
+    box-shadow: 3px 3px 10px coral,3px 3px 10px blue,3px 3px 10px blue,3px 3px 10px blue;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.reklama h2{
+    font-size: 50px;
+}
+
+i{
+    margin: 20px 10px ;
+    color: rgb(12, 10, 41);
+}
+.reklama{
+    text-align: center;
+    width: 100%;
+    height: 50vh;
+    padding: 10px 0px ;
+}
+
+
+.reklama a i:hover {
+    transform: scale(1.5, 1.5);
+}
+
